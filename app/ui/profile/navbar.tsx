@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Navbar() {
@@ -48,7 +49,7 @@ export default function Navbar() {
 					</div>
 					<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 						<div className="flex flex-shrink-0 items-center">
-							<img
+							<Image
 								className="h-8 w-auto"
 								src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
 								alt="Your Company"
